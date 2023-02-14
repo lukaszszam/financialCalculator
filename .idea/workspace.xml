@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8034ddef-4d47-4ac9-8d9b-01ae021864b1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/financialCalculator.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/company/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/company/model/InputData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/company/model/RateType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/company/service/PrintingServceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/company/service/PrintingService.java" afterDir="false" />
+    <list default="true" id="8034ddef-4d47-4ac9-8d9b-01ae021864b1" name="Changes" comment="FirstPartOfFinancialCalculator">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/company/model/MortgageResidual.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/company/model/Rate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/company/model/RateAmounts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/company/model/TimePoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/company/service/MortgageCalculationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/company/service/MortgageCalculationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/company/service/RateCalculationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/company/service/RateCalculationServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/company/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,17 +39,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="company.model" />
+      <recent name="company.service" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="company.Main" />
@@ -79,8 +84,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676315084371</updated>
-      <workItem from="1676315085782" duration="5363000" />
+      <workItem from="1676315085782" duration="6121000" />
+      <workItem from="1676405340590" duration="5571000" />
     </task>
+    <task id="LOCAL-00001" summary="FirstPartOfFinancialCalculator">
+      <created>1676323505826</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676323505826</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,5 +110,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="FirstPartOfFinancialCalculator" />
+    <option name="LAST_COMMIT_MESSAGE" value="FirstPartOfFinancialCalculator" />
   </component>
 </project>
