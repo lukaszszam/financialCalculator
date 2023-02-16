@@ -33,4 +33,11 @@ public class Rate {
     public MortgageResidual getMortgageResidual() {
         return mortgageResidual;
     }
+
+    @Override
+    public String toString() {
+        return "Rate{" +
+                "timePoint=" + timePoint +
+                '}';
+    }
 }

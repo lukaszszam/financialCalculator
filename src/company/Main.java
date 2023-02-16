@@ -1,6 +1,7 @@
 package company;
 
 import company.model.InputData;
+import company.model.MortgageResidual;
 import company.service.*;
 
 
@@ -10,11 +11,14 @@ public class Main {
 
     public static void main(String[] args ) {
         InputData inputData = new InputData()
-                .withAmount(new BigDecimal("298000"))
-                .withMonthsDuration(BigDecimal.valueOf(160));
+                .withAmount(new BigDecimal("298000"));
 
         PrintingService printingService = new PrintingServceImpl();
-        RateCalculationService rateCalculationService = new RateCalculationServiceImpl();
+        RateCalculationService rateCalculationService = new RateCalculationServiceImpl(
+                new TimePointServiceImpl(),
+                new AmountsCalculationServiceImpl(),
+                new ResidualCalculationServiceImpl()
+        );
         MortgageCalculationService mortgageCalculationService = new MortgageCalculationServiceImpl(
                 printingService,
                 rateCalculationService);
