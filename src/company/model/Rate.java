@@ -37,7 +37,8 @@ public class Rate {
     @Override
     public String toString() {
         return "Rate{" +
-                "timePoint=" + timePoint +
+                "rateAmounts=" + rateAmounts +
+                ", mortgageResidual=" + mortgageResidual +
                 '}';
     }
 }

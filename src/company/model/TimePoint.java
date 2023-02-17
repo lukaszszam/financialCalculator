@@ -27,12 +27,4 @@ public class TimePoint {
         return month;
     }
 
-    @Override
-    public String toString() {
-        return "TimePoint{" +
-                "date=" + date +
-                ", year=" + year +
-                ", month=" + month +
-                '}';
-    }
 }
