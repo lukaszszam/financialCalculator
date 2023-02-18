@@ -23,7 +23,7 @@ public class TimePointServiceImpl implements TimePointService {
     }
 
     private static LocalDate calculateDate(BigDecimal rateNumber, InputData inputData) {
-        return inputData.getRepaymentStartData()
+        return inputData.getRepaymentStartDate()
                 .plus(rateNumber.subtract(BigDecimal.ONE).intValue(), ChronoUnit.MONTHS);
     }
 
