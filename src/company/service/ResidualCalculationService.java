@@ -1,13 +1,11 @@
 package company.service;
 
-import company.model.InputData;
-import company.model.MortgageResidual;
-import company.model.Rate;
-import company.model.RateAmounts;
+import company.model.*;
 
 public interface ResidualCalculationService {
     MortgageResidual calculate(RateAmounts rateAmounts, InputData inputData);
 
-    MortgageResidual calculate(RateAmounts rateAmounts, Rate previousRate);
+    MortgageResidual calculate(RateAmounts rateAmounts, Overpayment overpayment, Rate previousRate);
 
+    MortgageResidual calculate(RateAmounts rateAmounts, Rate previousRate);
 }
